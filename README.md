@@ -1,6 +1,6 @@
 # projectsunflower
 
-The website for Project Sunflower MMO, where players download the launcher for Windows or Linux.
+The website for Project Sunflower, where players download the launcher for Windows or Linux.
 
 It is plain HTML, CSS and JavaScript with no build step. The download buttons, version and news are read live from the
 game server's `/release`, `/download` and `/news`, set in `assets/server.js`.
