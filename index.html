@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Project Sunflower MMO</title>
+    <meta name="description" content="Project Sunflower is a voxel MMO. Download the launcher for Windows or Linux." />
+    <link rel="icon" href="/assets/pictures/favicon.png" />
+    <link rel="preload" href="/assets/fonts/jersey15Latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/assets/style.css" />
+    <script type="module" src="/assets/downloads.js"></script>
+    <script type="module" src="/assets/news.js"></script>
+  </head>
+  <body>
+    <main class="hero">
+      <div class="hero-columns">
+        <section class="get-game">
+          <h1><img class="title" src="/assets/pictures/title.png" alt="Project Sunflower MMO" width="526" height="101" /></h1>
+          <p class="pitch">A voxel MMO. Fish, fight and explore Sunflower Valley with everyone else.</p>
+          <div class="download-area">
+            <div class="download-buttons" id="download-buttons"></div>
+            <p class="download-details" id="download-details"></p>
+            <p class="download-status" id="download-status">Looking for the newest version</p>
+          </div>
+        </section>
+        <aside class="panel news">
+          <h2>News</h2>
+          <ol class="news-list" id="news-list"></ol>
+          <p class="news-status" id="news-status">Loading the news</p>
+        </aside>
+      </div>
+    </main>
+
+    <section class="install">
+      <h2>Getting started</h2>
+      <div class="install-columns">
+        <article class="panel">
+          <h3>Windows</h3>
+          <ol>
+            <li>Unzip the download into a folder of its own.</li>
+            <li>Open <code data-executable="windows"></code>.</li>
+            <li>If Windows says it protected your PC, press More info, then Run anyway. The launcher isn't signed yet.</li>
+          </ol>
+        </article>
+        <article class="panel">
+          <h3>Linux</h3>
+          <ol>
+            <li>Unzip the download into a folder of its own.</li>
+            <li>Open <code data-executable="linux"></code>.</li>
+          </ol>
+        </article>
+      </div>
+      <p class="install-note">Sign in on the launcher and press Play. It installs the game and keeps the game and itself up to date.</p>
+    </section>
+
+    <footer class="footer">
+      <a href="https://tinux.dev">Made by tinux</a>
+    </footer>
+  </body>
+</html>
